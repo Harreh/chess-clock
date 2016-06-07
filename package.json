@@ -1,0 +1,20 @@
+{
+  "name": "chess-clock",
+  "version": "1.0.0",
+  "description": "A chess clock.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harry Dowe",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-2"
+  }
+}
