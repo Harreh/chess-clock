@@ -9,29 +9,19 @@
     <link href="css/app.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="col-xs-offset-4 col-md-4">
-            <div class="player-button player-active">
-                <div class="player-time top">12:45</div>
-            </div>
-        </div>
+    <div id="player-1-container" data-player="1" class="container player-button player-time">
+        <div class="player-time">10:00</div>
     </div>
 
     <div class="container">
-        <div class="col-xs-offset-4 col-md-4">
-            <i class="fa fa-cog" aria-hidden="true"></i>
-            <i class="fa fa-pause" aria-hidden="true"></i>
-            <i class="fa fa-clock-o" aria-hidden="true"></i>
-            <i class="fa fa-refresh" aria-hidden="true"></i>
-        </div>
+        <i class="fa fa-cog" aria-hidden="true"></i>
+        <i class="fa fa-pause" aria-hidden="true"></i>
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <i class="fa fa-refresh" aria-hidden="true"></i>
     </div>
 
-    <div class="container">
-        <div class="col-xs-offset-4 col-md-4">
-            <div class="player-button">
-                <div class="player-time">11:29</div>
-            </div>
-        </div>
+    <div id="player-2-container" data-player="2" class="container player-button">
+        <div class="player-time">10:00</div>
     </div>
 
     <script src="js/jquery.js"></script>
